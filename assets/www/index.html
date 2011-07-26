@@ -6,16 +6,17 @@
 		<link type="text/javascript" rel="stylesheet" href="mine.css" />
 		<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
 		<script type="text/javascript" src="jquery.mobile-1.0b1.min.js"></script>
+		<script type="text/javascript" src="events.js"></script>
 	</head>
 
 	<body>
 		<div data-role="page" id="sarans">
-			<div data-role="header" data-position="fixed"><h1>Events</h1></div>
-				
+			<div data-role="header" data-position="fixed"><h1>Events</h1></div>		
 			<div data-role="footer" data-position="fixed"><h1>Testing</h1></div>
 			<div data-role="content">
-						
-						<div class="testclass"> </div>
+				<div class="testclass" id="test"></div>
+				<!-- shows which event has been triggered -->
+				<div id="eventType"><p align="center">No Event Has Been Triggered</p></div>
 			</div> <!--content-->	
 		</div><!--Page-->
 	</body>
