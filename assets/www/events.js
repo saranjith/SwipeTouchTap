@@ -3,6 +3,7 @@ $(function(){
 	//touch OR tap
 	$("#test").bind('tap',function(event, ui){
         $("#eventType p").replaceWith("<p align='center'>Event Triggered: Tap</p>");
+        
 	})
 	
 	//taphold
